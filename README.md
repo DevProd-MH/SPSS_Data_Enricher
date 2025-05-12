@@ -5,6 +5,16 @@
 This script reads survey data from a **Google Sheets spreadsheet**, cleans and processes it, and exports it as an **SPSS `.sav` file** using `pyreadstat`. Optionally, it can also **generate realistic random survey rows** for data enrichment.
 
 ---
+## 🧩 Overview
+
+1. **Create a Google Form** with your survey questions.
+2. **Link the form to a Google Sheet** (this is automatic in Google Forms).
+3. This script:
+   - Authenticates with Google Sheets
+   - Cleans and normalizes the data
+   - Exports it to `.sav` (SPSS format)
+   - Optionally adds random synthetic rows for testing or simulation
+
 
 ## 📦 Requirements
 
