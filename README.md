@@ -21,8 +21,9 @@ This script reads survey data from a **Google Sheets spreadsheet**, cleans and p
 Install the required Python packages:
 
 ```bash
-pip install gspread google-auth pandas pyreadstat unidecode
+pip install -r requirements.txt
 ```
+* Form Sheet must be linked to Google Sheets
 
 ## ⚙️ Configuration
 
@@ -74,8 +75,9 @@ python main.py
 Follow the on-screen prompts to add fake survey data optionally.
 
 ## 📂 Output Files
+> survey_data = spreadsheet name
 
--   `survey_data.sav`: Original cleaned data
+-   `survey_data.sav`: Original cleaned data (it will take the spreadsheet name)
     
 -   `survey_data_enriched.sav`: File with added fake rows (if selected)
     
