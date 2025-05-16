@@ -7,7 +7,7 @@ import mock_rules  # Import the mock rules module
 
 # === Configuration ===
 # Replace with your actual Google Sheets spreadsheet name and worksheet index
-SPREADSHEET_NAME = "Worksheet (Responses)"   
+SPREADSHEET_NAME = "Worksheet (Responses)"
 WORKSHEET_INDEX = 0
 JSON_KEY_FILE = "credentials.json"
 RESULTS_FOLDER = "results"

@@ -1,2 +1,12 @@
 credentials.json
 /results
+/.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.egg-info
+*.egg
+*.log
